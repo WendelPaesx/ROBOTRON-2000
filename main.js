@@ -63,8 +63,12 @@ function atualizaEstatisticas(peca) {
 
     estatistica.forEach((elemento)=>{
         
-        
-       elemento.textContent = parseInt(elemento.textContent)+ pecas[peca][elemento.dataset.estatistica]
+        if(elemento=== "+"){
+            console.log('oi')
+        }else{
+           
+        }
+       
         
 
     })
